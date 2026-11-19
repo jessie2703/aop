@@ -1,0 +1,123 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #fff7e5;
+    font-family: Arial, sans-serif;
+    color: #26354a;
+    padding: 25px;
+}
+
+.gracella-container {
+    max-width: 1050px;
+    margin: auto;
+}
+
+.gracella-header {
+    background-color: #ffd34e;
+    border: 3px solid #263f68;
+    border-radius: 18px;
+    padding: 22px;
+    display: flex;
+    align-items: center;
+    gap: 25px;
+    margin-bottom: 20px;
+}
+
+.gracella-header img {
+    width: 145px;
+    height: 145px;
+    border-radius: 50%;
+    border: 4px solid white;
+    object-fit: cover;
+    cursor: pointer;
+}
+
+.gracella-header h1 {
+    font-size: 34px;
+    margin-bottom: 6px;
+}
+
+.gracella-header h2 {
+    display: inline-block;
+    background-color: white;
+    border-radius: 15px;
+    padding: 5px 14px;
+    font-size: 16px;
+    margin-bottom: 9px;
+}
+
+.gracella-header p {
+    margin-bottom: 12px;
+}
+
+.gracella-header span {
+    display: inline-block;
+    background-color: white;
+    border: 1px solid #263f68;
+    border-radius: 15px;
+    padding: 6px 13px;
+    font-size: 13px;
+    margin: 3px;
+}
+
+.gracella-grid {
+    display: grid;
+    grid-template-columns: 1fr 1.25fr 1fr;
+    gap: 18px;
+}
+
+.gracella-sidebar,
+.gracella-konten,
+.gracella-galeri,
+.gracella-profil,
+.gracella-pengalaman,
+.gracella-kemampuan {
+    background-color: white;
+    border: 2px solid #263f68;
+    border-radius: 16px;
+    padding: 18px;
+}
+
+.gracella-sidebar {
+    grid-column: 1;
+    grid-row: 1;
+    border-color: #e87878;
+}
+
+.gracella-konten {
+    grid-column: 2 / 4;
+    grid-row: 1;
+    border-color: #20a99f;
+}
+
+.gracella-grid h2 {
+    font-size: 21px;
+    margin-bottom: 14px;
+}
+
+.gracella-sidebar p {
+    font-size: 14px;
+    line-height: 1.7;
+}
+
+.gracella-sidebar hr {
+    margin: 14px 0;
+}
+
+.gracella-sidebar img {
+    width: 100%;
+    height: 155px;
+    object-fit: cover;
+    border-radius: 10px;
+    margin-top: 12px;
+}
+
+.gracella-konten p {
+    font-size: 14px;
+    line-height: 1.7;
+    margin-bottom: 18px;
+}
